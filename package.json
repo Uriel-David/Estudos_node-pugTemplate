@@ -1,0 +1,15 @@
+{
+  "name": "estudos_node-pugtemplate",
+  "version": "1.0.0",
+  "description": "Example of a simple website using Pug.",
+  "main": "index.js",
+  "scripts": {
+    "build": "pug templates/*.pug --pretty --out ./build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
